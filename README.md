@@ -6,3 +6,9 @@
 > npm run devStart
 > npm run devStarAuth
 ```
+
+```
+# Generate random secret
+$ node
+> require('crypto').randomBytes(64).toString('hex')
+```
