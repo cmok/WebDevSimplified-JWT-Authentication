@@ -7,8 +7,13 @@
 > npm run devStarAuth
 ```
 
+## Generate random secret
+
 ```
-# Generate random secret
 $ node
 > require('crypto').randomBytes(64).toString('hex')
 ```
+
+## REST Client
+
+REST Client is a VSCode plugin for sending REST request for test/development, see file - "request.reset"
